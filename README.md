@@ -1,5 +1,5 @@
-# Android Code Snippets
-The are common Android code snippets that I occasionally need a refresh on without a whole tutorial.
+# Android Code Snippets Cheatsheet
+A cheetsheet for common Android code snippets.
 
 <table>
   <!--Titles row-->
