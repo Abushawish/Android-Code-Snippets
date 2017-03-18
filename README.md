@@ -102,7 +102,7 @@ The are common Android code snippets that I occasionally need a refresh on witho
   
   <!--row 6-->
   <tr>
-    <td>Setting SharedPreferences</td>
+    <td>Getting SharedPreferences</td>
     <td>
       <pre lang="java">
         SharedPreferences prefs = getSharedPreferences("PREFS_NAME", MODE_PRIVATE); 
