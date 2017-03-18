@@ -122,7 +122,6 @@ The are common Android code snippets that I occasionally need a refresh on witho
         String extraString = "extra";
         intent.putExtra("extraKey", extraString);
         startActivity(intent);
-        
         //Get Extra in the NewActivity
         Intent intent = getIntent();
         if (intent != null)
