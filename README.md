@@ -70,17 +70,20 @@ A cheetsheet for common Android code snippets.
       <pre lang="java">
         Handler handler = new Handler(){
           @Override
-          public void handleMessage(Object obj){
-            //Do something with the obj
+          public void handleMessage(Message msg){
+            //Do something with the Message
           }
         };
-        Thread thread = new Thread() {
-          @Override
-          public void run(){
-            Object obj = threadWork();
-            handler.handleMessage(obj)
-          }   
-        };
+        void someFunction () {
+          Thread thread = new Thread() {
+            @Override
+            public void run(){
+              Message msg = handler.obtainMessage();
+              handler.handleMessage(obj)
+            }   
+          };
+          thread.start;
+        }
       </pre>
     </td>
     <td>To do something in a thread then pass it to UI thread using handler</td>
